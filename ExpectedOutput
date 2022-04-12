@@ -1,0 +1,226 @@
+"C:\Program Files\Java\jdk1.8.0_202\bin\java.exe" -ea -Didea.test.cyclic.buffer.size=1048576 "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar=62237:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\testng\lib\testng-rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Users\Rose Anne\IdeaProjects\AmazonRegistration\target\test-classes;C:\Users\Rose Anne\IdeaProjects\AmazonRegistration\target\classes;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Rose Anne\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Rose Anne\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Rose Anne\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Rose Anne\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Rose Anne\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Rose Anne\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Rose Anne\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Rose Anne\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Rose Anne\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Rose Anne\.m2\repository\org\testng\testng\7.5\testng-7.5.jar;C:\Users\Rose Anne\.m2\repository\com\google\code\findbugs\jsr305\3.0.1\jsr305-3.0.1.jar;C:\Users\Rose Anne\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\Rose Anne\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\Rose Anne\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\Rose Anne\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\Rose Anne\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar" com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket62236 "@w@C:\Users\ROSEAN~1\AppData\Local\Temp\idea_working_dirs_testng.tmp" -temp "C:\Users\ROSEAN~1\AppData\Local\Temp\idea_testng.tmp"
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
+
+Scenario Outline: All of the fields should display an error when not populated on form submission             # src/test/resources/features/RegistrationTest.feature:16
+Scenario Outline: All of the fields should display an error when not populated on form submission             # src/test/resources/features/RegistrationTest.feature:16
+1649754997051	geckodriver	INFO	Listening on 127.0.0.1:6080
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 39150
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+1649754997410	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ROSEAN~1\\AppData\\Local\\Temp\\rust_mozprofileiYH6Kw"
+Apr 12, 2022 5:16:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1649754998382	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rose Anne\\AppData\\Local\\Temp\\rust_mozprofileiYH6Kw\\search.json.mozlz4", (void 0)))
+1649755001446	Marionette	INFO	Listening on port 62245
+1649755001604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Apr 12, 2022 5:16:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+  Given I am on the Sign-in page                                                                              # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iAmOnTheSignInPage()
+JavaScript warning: https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F%26tag%3Dgoogleglobalp-20%26ref%3Dnav_signin%26adgrpid%3D82342659060%26hvpone%3D%26hvptwo%3D%26hvadid%3D585475370855%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D110909126262709821%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D20822%26hvtargid%3Dkwd-10573980%26hydadcr%3D2246_13468515%26gclid%3DEAIaIQobChMInufLkejW9gIVnL2WCh3aqgTnEAAYASAAEgLI6fD_BwE&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0& line 712 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  Given I am on the Sign-in page                                                                              # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iAmOnTheSignInPage()
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+  When I click on "createAccountSubmit" button on the Sign-in page                                            # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClickOnButtonOnTheSignInPage(java.lang.String)
+Amazon Create Account page displayed successfully.
+JavaScript warning: https://www.amazon.com/ap/register?showRememberMe=true&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F%26tag%3Dgoogleglobalp-20%26ref%3Dnav_signin%26adgrpid%3D82342659060%26hvpone%3D%26hvptwo%3D%26hvadid%3D585475370855%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D110909126262709821%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D20822%26hvtargid%3Dkwd-10573980%26hydadcr%3D2246_13468515%26gclid%3DEAIaIQobChMInufLkejW9gIVnL2WCh3aqgTnEAAYASAAEgLI6fD_BwE&prevRID=S4TH3ZG7QYME4RH9KXQ2&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 line 2664 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  Then I should be on the Create Account page                                                                 # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iShouldBeOnTheCreateAccountPage()
+  When I click on "createAccountSubmit" button on the Sign-in page                                            # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClickOnButtonOnTheSignInPage(java.lang.String)
+Amazon Create Account page displayed successfully.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  Then I should be on the Create Account page                                                                 # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iShouldBeOnTheCreateAccountPage()
+  When I enter "test@test.com" into all the fields on the page                                                # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iEnterIntoAllTheFieldsOnThePage(java.lang.String)
+  And I clear the "ap_customer_name" field on the Create Account page                                         # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClearTheFieldOnTheCreateAccountPage(java.lang.String)
+  When I enter "test@test.com" into all the fields on the page                                                # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iEnterIntoAllTheFieldsOnThePage(java.lang.String)
+  And I clear the "ap_customer_name" field on the Create Account page                                         # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClearTheFieldOnTheCreateAccountPage(java.lang.String)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+  And I click on "continue" button on the Create Account page                                                 # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClickOnButtonOnTheCreateAccountPage(java.lang.String)
+'Enter your name' error message is displayed for ap_customer_name input box.
+  Then the "Enter your name" message on the Create Account page for each "ap_customer_name" should be visible # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.theOnTheCreateAccountPageShouldBe(java.lang.String,java.lang.String)
+
+Scenario Outline: All of the fields should display an error when not populated on form submission                             # src/test/resources/features/RegistrationTest.feature:17
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 28468
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 12, 2022 5:16:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+  And I click on "continue" button on the Create Account page                                                 # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClickOnButtonOnTheCreateAccountPage(java.lang.String)
+'Enter your name' error message is displayed for ap_customer_name input box.
+  Then the "Enter your name" message on the Create Account page for each "ap_customer_name" should be visible # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.theOnTheCreateAccountPageShouldBe(java.lang.String,java.lang.String)
+1649755019166	Marionette	INFO	Stopped listening on port 62245
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+
+Scenario Outline: All of the fields should display an error when not populated on form submission                             # src/test/resources/features/RegistrationTest.feature:17
+1649755019807	geckodriver	INFO	Listening on 127.0.0.1:9053
+1649755020304	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ROSEAN~1\\AppData\\Local\\Temp\\rust_mozprofileKdkyqm"
+1649755020705	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rose Anne\\AppData\\Local\\Temp\\rust_mozprofileKdkyqm\\search.json.mozlz4", (void 0)))
+1649755022826	Marionette	INFO	Listening on port 62348
+  Given I am on the Sign-in page                                                                                              # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iAmOnTheSignInPage()
+1649755023005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Apr 12, 2022 5:17:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F%26tag%3Dgoogleglobalp-20%26ref%3Dnav_signin%26adgrpid%3D82342659060%26hvpone%3D%26hvptwo%3D%26hvadid%3D585475370855%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D110909126262709821%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D20822%26hvtargid%3Dkwd-10573980%26hydadcr%3D2246_13468515%26gclid%3DEAIaIQobChMInufLkejW9gIVnL2WCh3aqgTnEAAYASAAEgLI6fD_BwE&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0& line 712 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  When I click on "createAccountSubmit" button on the Sign-in page                                                            # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClickOnButtonOnTheSignInPage(java.lang.String)
+Amazon Create Account page displayed successfully.
+  Given I am on the Sign-in page                                                                                              # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iAmOnTheSignInPage()
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81dZoozqaGL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  Then I should be on the Create Account page                                                                                 # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iShouldBeOnTheCreateAccountPage()
+JavaScript warning: https://www.amazon.com/ap/register?showRememberMe=true&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F%26tag%3Dgoogleglobalp-20%26ref%3Dnav_signin%26adgrpid%3D82342659060%26hvpone%3D%26hvptwo%3D%26hvadid%3D585475370855%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D110909126262709821%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D20822%26hvtargid%3Dkwd-10573980%26hydadcr%3D2246_13468515%26gclid%3DEAIaIQobChMInufLkejW9gIVnL2WCh3aqgTnEAAYASAAEgLI6fD_BwE&prevRID=C3TH2PWTGBMSEW9NJ3BS&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 line 2664 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  When I click on "createAccountSubmit" button on the Sign-in page                                                            # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClickOnButtonOnTheSignInPage(java.lang.String)
+Amazon Create Account page displayed successfully.
+  When I enter "test@test.com" into all the fields on the page                                                                # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iEnterIntoAllTheFieldsOnThePage(java.lang.String)
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  Then I should be on the Create Account page                                                                                 # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iShouldBeOnTheCreateAccountPage()
+  And I clear the "ap_email" field on the Create Account page                                                                 # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClearTheFieldOnTheCreateAccountPage(java.lang.String)
+  When I enter "test@test.com" into all the fields on the page                                                                # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iEnterIntoAllTheFieldsOnThePage(java.lang.String)
+  And I click on "continue" button on the Create Account page                                                                 # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClickOnButtonOnTheCreateAccountPage(java.lang.String)
+'Enter your email or mobile phone number' error message is displayed for ap_email input box.
+  Then the "Enter your email or mobile phone number" message on the Create Account page for each "ap_email" should be visible # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.theOnTheCreateAccountPageShouldBe(java.lang.String,java.lang.String)
+
+Scenario Outline: All of the fields should display an error when not populated on form submission                      # src/test/resources/features/RegistrationTest.feature:18
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 12556
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+  And I clear the "ap_email" field on the Create Account page                                                                 # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClearTheFieldOnTheCreateAccountPage(java.lang.String)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+Apr 12, 2022 5:17:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+  And I click on "continue" button on the Create Account page                                                                 # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClickOnButtonOnTheCreateAccountPage(java.lang.String)
+'Enter your email or mobile phone number' error message is displayed for ap_email input box.
+  Then the "Enter your email or mobile phone number" message on the Create Account page for each "ap_email" should be visible # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.theOnTheCreateAccountPageShouldBe(java.lang.String,java.lang.String)
+1649755041278	Marionette	INFO	Stopped listening on port 62348
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+
+Scenario Outline: All of the fields should display an error when not populated on form submission                      # src/test/resources/features/RegistrationTest.feature:18
+1649755041868	geckodriver	INFO	Listening on 127.0.0.1:49099
+1649755042376	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ROSEAN~1\\AppData\\Local\\Temp\\rust_mozprofile2QOIWx"
+  Given I am on the Sign-in page                                                                                       # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iAmOnTheSignInPage()
+1649755042707	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rose Anne\\AppData\\Local\\Temp\\rust_mozprofile2QOIWx\\search.json.mozlz4", (void 0)))
+1649755044854	Marionette	INFO	Listening on port 62440
+1649755045054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Apr 12, 2022 5:17:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+  When I click on "createAccountSubmit" button on the Sign-in page                                                     # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClickOnButtonOnTheSignInPage(java.lang.String)
+Amazon Create Account page displayed successfully.
+JavaScript warning: https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F%26tag%3Dgoogleglobalp-20%26ref%3Dnav_signin%26adgrpid%3D82342659060%26hvpone%3D%26hvptwo%3D%26hvadid%3D585475370855%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D110909126262709821%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D20822%26hvtargid%3Dkwd-10573980%26hydadcr%3D2246_13468515%26gclid%3DEAIaIQobChMInufLkejW9gIVnL2WCh3aqgTnEAAYASAAEgLI6fD_BwE&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0& line 712 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  Then I should be on the Create Account page                                                                          # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iShouldBeOnTheCreateAccountPage()
+  Given I am on the Sign-in page                                                                                       # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iAmOnTheSignInPage()
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  When I enter "test@test.com" into all the fields on the page                                                         # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iEnterIntoAllTheFieldsOnThePage(java.lang.String)
+JavaScript warning: https://www.amazon.com/ap/register?showRememberMe=true&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F%26tag%3Dgoogleglobalp-20%26ref%3Dnav_signin%26adgrpid%3D82342659060%26hvpone%3D%26hvptwo%3D%26hvadid%3D585475370855%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D110909126262709821%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D20822%26hvtargid%3Dkwd-10573980%26hydadcr%3D2246_13468515%26gclid%3DEAIaIQobChMInufLkejW9gIVnL2WCh3aqgTnEAAYASAAEgLI6fD_BwE&prevRID=FCFS3D74J5ZV02WKG9JA&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 line 2664 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  And I clear the "ap_password" field on the Create Account page                                                       # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClearTheFieldOnTheCreateAccountPage(java.lang.String)
+  When I click on "createAccountSubmit" button on the Sign-in page                                                     # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClickOnButtonOnTheSignInPage(java.lang.String)
+Amazon Create Account page displayed successfully.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  Then I should be on the Create Account page                                                                          # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iShouldBeOnTheCreateAccountPage()
+  And I click on "continue" button on the Create Account page                                                          # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClickOnButtonOnTheCreateAccountPage(java.lang.String)
+'Minimum 6 characters required' error message is displayed for ap_password input box.
+  Then the "Minimum 6 characters required" message on the Create Account page for each "ap_password" should be visible # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.theOnTheCreateAccountPageShouldBe(java.lang.String,java.lang.String)
+
+Scenario Outline: All of the fields should display an error when not populated on form submission                       # src/test/resources/features/RegistrationTest.feature:19
+Starting ChromeDriver 100.0.4896.60 (6a5d10861ce8de5fce22564658033b43cb7de047-refs/branch-heads/4896@{#875}) on port 24860
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 12, 2022 5:17:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+  When I enter "test@test.com" into all the fields on the page                                                         # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iEnterIntoAllTheFieldsOnThePage(java.lang.String)
+  And I clear the "ap_password" field on the Create Account page                                                       # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClearTheFieldOnTheCreateAccountPage(java.lang.String)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+  Given I am on the Sign-in page                                                                                        # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iAmOnTheSignInPage()
+  And I click on "continue" button on the Create Account page                                                          # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClickOnButtonOnTheCreateAccountPage(java.lang.String)
+'Minimum 6 characters required' error message is displayed for ap_password input box.
+  Then the "Minimum 6 characters required" message on the Create Account page for each "ap_password" should be visible # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.theOnTheCreateAccountPageShouldBe(java.lang.String,java.lang.String)
+1649755064131	Marionette	INFO	Stopped listening on port 62440
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+  When I enter "test@test.com" into all the fields on the page                                                          # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iEnterIntoAllTheFieldsOnThePage(java.lang.String)
+  And I clear the "ap_password_check" field on the Create Account page                                                  # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClearTheFieldOnTheCreateAccountPage(java.lang.String)
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+  And I click on "continue" button on the Create Account page                                                           # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClickOnButtonOnTheCreateAccountPage(java.lang.String)
+'Type your password again' error message is displayed for ap_password_check input box.
+  Then the "Type your password again" message on the Create Account page for each "ap_password_check" should be visible # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.theOnTheCreateAccountPageShouldBe(java.lang.String,java.lang.String)
+1649755085693	Marionette	INFO	Stopped listening on port 62536
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+
+Scenario Outline: All of the fields should display an error when not populated on form submission                       # src/test/resources/features/RegistrationTest.feature:19
+1649755064738	geckodriver	INFO	Listening on 127.0.0.1:48522
+1649755065237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\ROSEAN~1\\AppData\\Local\\Temp\\rust_mozprofilegZXX7X"
+1649755065571	Marionette	INFO	Marionette enabled
+  When I click on "createAccountSubmit" button on the Sign-in page                                                      # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClickOnButtonOnTheSignInPage(java.lang.String)
+Amazon Create Account page displayed successfully.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Rose Anne\\AppData\\Local\\Temp\\rust_mozprofilegZXX7X\\search.json.mozlz4", (void 0)))
+1649755067505	Marionette	INFO	Listening on port 62536
+1649755067881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Apr 12, 2022 5:17:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+  Then I should be on the Create Account page                                                                           # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iShouldBeOnTheCreateAccountPage()
+JavaScript warning: https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F%26tag%3Dgoogleglobalp-20%26ref%3Dnav_signin%26adgrpid%3D82342659060%26hvpone%3D%26hvptwo%3D%26hvadid%3D585475370855%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D110909126262709821%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D20822%26hvtargid%3Dkwd-10573980%26hydadcr%3D2246_13468515%26gclid%3DEAIaIQobChMInufLkejW9gIVnL2WCh3aqgTnEAAYASAAEgLI6fD_BwE&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0& line 718 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  When I enter "test@test.com" into all the fields on the page                                                          # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iEnterIntoAllTheFieldsOnThePage(java.lang.String)
+  Given I am on the Sign-in page                                                                                        # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iAmOnTheSignInPage()
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.com"
+JavaScript warning: https://www.amazon.com/ap/register?showRememberMe=true&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F%26tag%3Dgoogleglobalp-20%26ref%3Dnav_signin%26adgrpid%3D82342659060%26hvpone%3D%26hvptwo%3D%26hvadid%3D585475370855%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D110909126262709821%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D20822%26hvtargid%3Dkwd-10573980%26hydadcr%3D2246_13468515%26gclid%3DEAIaIQobChMInufLkejW9gIVnL2WCh3aqgTnEAAYASAAEgLI6fD_BwE&prevRID=AKNM2594EE79EACJ50KJ&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&prepopulatedLoginId=&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0 line 2670 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  And I clear the "ap_password_check" field on the Create Account page                                                  # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClearTheFieldOnTheCreateAccountPage(java.lang.String)
+  When I click on "createAccountSubmit" button on the Sign-in page                                                      # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iClickOnButtonOnTheSignInPage(java.lang.String)
+Amazon Create Account page displayed successfully.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/81UNYn554pL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+  And I click on "continue" button on the Create Account page                                                           # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.iClickOnButtonOnTheCreateAccountPage(java.lang.String)
+'Type your password again' error message is displayed for ap_password_check input box.
+  Then the "Type your password again" message on the Create Account page for each "ap_password_check" should be visible # com.testNG.ChromeStepDefinitions.ChromeMyStepdefs.theOnTheCreateAccountPageShouldBe(java.lang.String,java.lang.String)
+  Then I should be on the Create Account page                                                                           # com.testNG.FirefoxStepDefinitions.FirefoxMyStepdefs.iShouldBeOnTheCreateAccountPage()
+┌───────────────────────────────────────────────────────────────────────────────────┐
+│ Share your Cucumber Report with your team at https://reports.cucumber.io          │
+│ Activate publishing with one of the following:                                    │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.enabled=true    │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.enabled=true    │
+│ Environment variable:                            CUCUMBER_PUBLISH_ENABLED=true    │
+│ JUnit:                                           @CucumberOptions(publish = true) │
+│                                                                                   │
+│ More information at https://cucumber.io/docs/cucumber/environment-variables/      │
+│                                                                                   │
+│ Disable this message with one of the following:                                   │
+│                                                                                   │
+│ src/test/resources/cucumber.properties:          cucumber.publish.quiet=true      │
+│ src/test/resources/junit-platform.properties:    cucumber.publish.quiet=true      │
+└───────────────────────────────────────────────────────────────────────────────────┘
+
+===============================================
+My TestSuite
+Total tests run: 8, Passes: 8, Failures: 0, Skips: 0
+===============================================
+
+
+Process finished with exit code 0
