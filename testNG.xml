@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="My TestSuite" parallel="tests">
+    <test name="ChromeAmazonRegistration">
+        <classes>
+            <class name="com.testNG.ChromeTestRunner">
+            </class>>
+
+        </classes>>
+    </test>
+    <test name="FirefoxAmazonRegistration">
+        <classes>
+            <class name="com.testNG.FirefoxTestRunner">
+            </class>>
+
+        </classes>>
+    </test>
+</suite>
